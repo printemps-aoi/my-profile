@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mizuki Profile</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-pink-100 text-center p-8">
+
+  <h1 class="text-4xl font-bold text-pink-600">
+    Mizuki's Profile
+  </h1>
+
+  <p class="text-lg text-gray-700">
+    井手泉葵です。
+  </p>
+
+  <h2 class="text-2xl mt-6">
+    趣味
+  </h2>
+
+  <ul class="list-disc list-inside">
+    <li>ゲーム</li>
+    <li>紅茶を飲むこと</li>
+    <li>ディズニー</li>
+  </ul>
+
+  <img
+    class="mx-auto mt-4 rounded-xl w-60"
+    src="https://picsum.photos/300"
+    alt="プロフィール画像"
+  >
+
+  <p class="mt-4">
+    Instagramはこちら
+    <a
+      class="text-blue-500 underline"
+      href="https://www.instagram.com/mizuki_059?igsh=aGUzaTFiYXBia2ds&utm_source=qr"
+      target="_blank"
+    >
+      here
+    </a>
+  </p>
+
+</body>
+</html>
